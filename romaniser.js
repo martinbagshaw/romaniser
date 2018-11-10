@@ -2,6 +2,7 @@
 // values object - used for conversion in romaniser function
 // - converts any number over 3
 // - after conversion, use while loop to add up to 3 'I's
+"use strict";
 const values = [
     {
         arabic: 5000,
@@ -86,4 +87,4 @@ function romaniser(num){
 
 }
 
-module.exports = romaniser;
+// module.exports = romaniser;

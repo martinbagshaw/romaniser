@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Romaniser</title>
+  <meta name="description" content="Roman Numerals Converter">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main role="main">
+
+    <header role="header">
+      <h1><span class="green">Rom</span><span class="white">ani</span><span class="red">ser</span></h1>
+      <p>Enter any (Arabic) number from 1 to 5000 to convert to Roman Numerals</p>
+    </header>
+
+    <form id="converter">
+      <label for="convert-number">Convert number to Roman Numerals:</label>
+      <input id="convert-number" type="text" name="arabic" value="" placeholder="Enter Arabic numbers 0-9 here" maxlength="4" pattern="[0-9]{1,4}">
+      <fieldset id="conversion" aria-labelledby="roman-numerals-conversion"></fieldset>
+      <input type="submit" name="" value="Convert to Roman Numerals">
+    </form>
+
+  </main>
+  
+</body>
+<script type="text/javascript" src="./romaniser.js"></script>
+<script type="text/javascript" src="./romaniser-dom.js"></script>
+
+</html>
